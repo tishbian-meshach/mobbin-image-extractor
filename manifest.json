@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Mobbin Pro Image Extractor",
+    "version": "1.0",
+    "description": "Clean Mobbin images",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["https://mobbin.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
